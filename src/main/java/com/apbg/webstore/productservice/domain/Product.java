@@ -1,10 +1,14 @@
 package com.apbg.webstore.productservice.domain;
 
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Data
+@NoArgsConstructor
+@Builder
 @Entity
 public class Product {
 
