@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Profile;
 
 import java.util.Properties;
 
-@Configuration
-@Profile("cloud")
+//@Configuration
+//@Profile("cloud")
 public class CloudProps implements CloudConfigProperties {
 
     @Bean

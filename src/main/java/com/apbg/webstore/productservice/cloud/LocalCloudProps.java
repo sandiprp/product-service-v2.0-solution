@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Profile;
 
 import java.util.Properties;
 
-@Configuration
-@Profile("!cloud")
+//@Configuration
+//@Profile("!cloud")
 public class LocalCloudProps implements CloudConfigProperties {
     @Override
     public Properties cloudProperties() {

@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 
 import java.util.Properties;
 
-@Profile("cloud")
+//@Profile("cloud")
 public interface CloudConfigProperties {
     Properties cloudProperties();
 }
