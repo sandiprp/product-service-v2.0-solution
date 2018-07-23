@@ -1,0 +1,13 @@
+---
+applications:
+- name: rh--ps
+  memory: 750M
+  buildpack: java_buildpack_offline
+  path: build/libs/product-service-0.0.1-SNAPSHOT.jar
+  services:
+    - ps-db
+    - dashboard
+    - discovery
+    - uaa
+    - config
+    - zipkin
